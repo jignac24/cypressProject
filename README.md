@@ -40,5 +40,5 @@ In terminal : npx cypress open
        if using cypress-cucumber-preprocessor
           import 'cypress-mochawesome-reporter/cucumberSupport';
 
-  Terminal : npx cypress run --spec "cypress\e2e\UITests\loginTest.cy.js"
+  Terminal : npx cypress run --browser chrome --headed --spec "cypress\e2e\UITests\loginTest.cy.js"
 
